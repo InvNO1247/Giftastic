@@ -37,7 +37,7 @@ body {
    
    button,
    input[type="submit"] {
-     padding: 5px 20px;
+     padding: 5px 10px;
      margin: 0 10px 10px 0;
      font-size: 18px;
      color: #fff;
@@ -63,11 +63,19 @@ body {
    }
  
    #search-form {
-     margin-right: 160px;
+     margin-right: 25%;
    }
  
    p {
      margin: 0px;
      text-align: left;
+     color: #366866;
+   }
+
+   .imgheader {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
    }
  
