@@ -5,7 +5,7 @@ $(function () {
 })
 
 
-// array of search topics
+// my array
 var searchArray = ["Friends", "The Office", "How I met your mother", "Gilmore Girls", "New Girl", "Parks and Recreation", "Firefly", "supernatural", "Game of Thrones"];
 
 // function to add buttons to page after submitting input in the search area
