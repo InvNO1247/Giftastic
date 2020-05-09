@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GifTastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="imghead">
+        <img src="assets/images/header1.jpg" align="middle">
+    </div>
+
+    <container>
+        <!-- create an area where we'll place all our buttons -->
+        <div id="buttonsArea"></div>
+        <!-- create a form which allows us to create new buttons to insert in our buttons area -->
+        <form id="search-form">
+            <label for="search-input">Add in your search!</label>
+            <!-- Input text box-->
+            <input type="text" id="search-input">
+            <br>
+            <!-- Input submit type with a value of submit-->
+            <input id="addSearch" type="submit" value="Submit">
+        </form>
+        <!-- Div to place all our giphs - will be empty - JQuery -->
+        <div id="searches"></div>
+    </container>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/script.js"></script>
+
+</body>
+
+</html>
